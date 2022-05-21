@@ -1,0 +1,383 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    display: flex;
+    width: 90.5rem;
+    border-radius: 1rem;
+    height: 10rem;
+    padding: 2rem;
+    background-color: #CBCBCB;
+
+}
+/*personalizacion de la maquetacion*/
+.circulo1{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    height: 4rem;
+    background-color: #F20707;
+    border-radius: 100%;
+    margin:2rem;
+}
+
+.circulo2{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    height: 4rem;
+    background-color:#D9B13B;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+.circulo3{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    height: 4rem;
+    background-color: #085CA6;
+    border-radius: 100%;
+    margin:2rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    border-radius: 1rem;
+    height: 5rem;
+    background-color: #FAFAFA;
+    margin: 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 90.5rem;
+    height: 5rem;
+    background-color: #464E5D;
+    border-radius: 1rem;
+}
+
+.ventana{
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    height: 3rem;
+    background-color: #DF4645;
+    border-radius: 1rem;
+    margin-left: 78rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+   
+    }
+
+    h1{
+        display:flex;
+        font-size:large;
+        font-family: 'Inter', sans-serif;
+        color:white;
+        left: 0.5rem;
+
+    }
+
+    .icono{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        background-color: transparent;
+        margin: 1rem;
+    }
+
+    .selector{
+        display: flex;
+        flex-direction: row;
+        width: 82rem;
+        height: 105rem;
+        background-color: transparent;
+    }
+
+    .lado1izquierdo{
+        display: flex;
+        flex-direction: column;
+        width: 48rem;
+        height: 102rem;
+        background-color: transparent;
+        margin-top: 2rem;
+    }
+
+
+/*Agregamos todas las imagenes con background url, y las acomodamos con background size y background position*/
+
+    .etiqueta2{
+        display: flex;
+        width: 48rem;
+        height: 30rem;
+        background: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F56fba7d7-2f6d-43d3-8990-4b2ce0967fca%2Fspenser-sembrat-J23AXE8tPDo-unsplash.jpg?table=block&id=7f85ae2d-ffdc-44fc-adfb-e9a0349b4ccb&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+        margin-left: 1rem;
+        border-radius: 1rem;
+        background-size: 50rem;
+    }
+
+    .ventanainterna1{
+        display: flex;
+        width: 36rem;
+        height: 3rem;
+        background-color: #464E5D53;
+        margin-top: 24rem;
+        margin-left: 1rem;
+        border-radius: 1rem;
+    }
+
+    .comentario{
+       font-size: 1.5rem;
+       font-family: 'Inter', sans-serif;
+       color: white;
+       text-align: center;
+    }
+
+    .etiqueta3{
+        display: flex;
+        flex-direction: row;
+        width: 48rem;
+        height: 15rem;
+        background-color: transparent;
+        margin-left: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .subventana1{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background: url(https://anthoncode.com/wp-content/uploads/2020/04/visual-studio-code-2020.png);
+        background-position: -4.5rem;
+        margin-right: 0rem;
+        background-size: 25rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        
+    }
+
+    .subventana2{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background: url(https://static-s.aa-cdn.net/img/ios/461310295/6e5c910d970804a9c4b67a40eb3e0a0c?v=1);
+        margin-left: 1rem;
+        background-size: 14rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+        background-position: 0.5rem;
+    }
+
+
+
+
+    .subventana3{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background: url(https://seeklogo.com/images/M/microsoft-net-logo-631EFE744A-seeklogo.com.png);
+        margin-left: 1rem;
+        background-size: 13.7rem;
+        border-radius: 1rem;
+        margin-right: 0rem;
+        background-position: 1.5rem;
+        margin-top: 2rem;
+    }
+
+
+
+
+
+
+
+    .etiqueta4{
+        display: flex;
+        flex-direction: row;
+        width: 48rem;
+        height: 15rem;
+        background-color: transparent;
+        margin-left: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .subventana4{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EDqL1_AoVqZxm7lcRYr22aKLNyXUOC9as2dY8hMbkABZwnv_nzxYC_URkvi1ReljE4M&usqp=CAU);
+        margin-left: 1rem;
+        border-radius: 1rem;
+        margin-right: 0rem;
+        background-size: 12rem;
+        margin-top: 2rem;
+        background-position: 2rem;
+
+    }
+
+    .subventana5{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background: url(https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/82/ab/ac/82abac57-805c-3a48-41fe-d63b765b559c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png);
+        margin-left: 1rem;
+        margin-right: 0rem;
+        background-size: 20rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        background-position:-2.5rem;
+    
+    }
+
+    .subventana6{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background: url(https://i.blogs.es/4b8194/html5/1366_521.jpg);
+        margin-left: 1rem;
+        background-size: 34.3rem;
+        margin-top: 2rem;
+        background-position: -10rem;
+        border-radius: 1rem;
+    }
+
+
+    footer{
+        display: flex;
+        width: 48rem;
+        height: 30rem;
+        background-color: transparent;
+        margin-left: 1rem;
+        flex-direction: row;
+    }
+/*division*/
+    .etiqueta5{
+        display: flex;
+        width: 13rem;
+        height: 9rem;
+        background: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb5872d08-137f-407c-97ff-d7386ec58f44%2FLogoSCL-01.png?table=block&id=05f1d4b7-8f01-4284-b2c8-dd53072fab5a&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+       background-position: 1rem;
+        margin-top: 3rem;
+        background-size: 12rem;
+        border-radius: 1rem;
+    }
+
+    .etiqueta6{
+        display: flex;
+        flex-direction: column;
+        width: 32.7rem;
+        height: 15rem;
+        background-color: transparent;
+        margin-top: 3rem;
+    }
+
+    .rectangulo1{
+        display: flex;
+        width: 32.7rem;
+        height: 2rem;
+        background-color: transparent;
+        margin-left: 2rem;
+    }
+/*Agregamos texto*/
+    .linea1{
+        font-family:'Inter', sans-serif; 
+        color: black;
+        font-size: 1.4rem;
+    }
+     
+    .ladoderecho1{
+        display: flex;
+        flex-direction: column;
+        width: 40rem;
+        height: 93rem;
+        background-color: transparent;
+        margin-top: 0rem;
+    }
+/*Colocamos los programas utilizando "background url*/
+    .agrupacion{
+        display: flex;
+        width: 38.5rem;
+        height: 100rem;
+        background-color: #E5E5E5;
+    flex-direction: column;
+    }
+
+    .organizador{
+        display: flex;
+        height: 3rem;
+        width: 15rem;
+        background-color: transparent;
+    }
+
+    .pestana2{
+        display: flex;
+        background: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F68b0b3a1-024b-4106-a5b3-a971be72ef71%2Fhtml.jpg?table=block&id=2557679d-a7b2-46c8-a961-51e8869165ac&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+       background-size: 20rem; 
+        height: 8rem;
+        width: 15rem;
+        margin-bottom: 0rem;
+        border-radius: 1rem;
+        background-position: -3rem;
+        margin-left: 20rem;
+        margin-top: 3rem;
+    }
+
+    .pestana3{
+        display: flex;
+        background:url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fce88424f-8c4c-4516-b372-ec5035051f78%2FQue-es-CSS.jpg?table=block&id=a8b02256-ff86-4773-8f05-751baaf9f668&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=1950&userId=&cache=v2);
+        height: 8rem;
+        background-size: 15rem;
+        width: 15rem;
+        margin-bottom: 0rem;
+        margin-left: 20rem;
+        border-radius: 1rem;
+        margin-top: 3rem;
+    }
+
+    .pestana4{
+        display: flex;
+        background: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4ffdfd4b-a83e-472f-8703-1c5ac56c5116%2Fjs-1.png?table=block&id=a5bcfcfb-41da-423d-a842-eae50eea7b6d&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=1570&userId=&cache=v2);
+        background-size: 20rem;
+        height: 8rem;
+        width: 15rem;
+        background-position: -3rem;
+        margin-left: 20rem;
+        margin-top: 3rem;
+        border-radius: 1rem;
+    }
+
+
+    .pestana5{
+        display: flex;
+        background: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc6d8f96d-c108-4bf3-ac7c-f4f47cda1c35%2Fque-es-SQL.png?table=block&id=cd364e4e-a567-42e1-98f4-44638fb2b382&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+        background-size: 15rem;
+        height: 8rem;
+        width: 15rem;
+        margin-left: 20rem;
+        margin-top: 3rem;
+        border-radius: 1rem;
+    }
+
+    .reacnative{
+        display: flex;
+        background:url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png);
+        background-size: 45rem;
+        width: 26.5rem;
+        background-position: -9rem;
+        margin-left: 1rem;
+        height: 25rem;
+        margin-top: 3rem;
+        margin-left: 6rem;
+        border-radius: 1rem;
+    }
+
+
+
